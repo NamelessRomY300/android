@@ -21,7 +21,7 @@ Build Instructions for NamelessROM Y300 (U8833)
 
 4. Initialize the build environment
 
-        source build/envsetup.sh
+        . build/envsetup.sh
     
 5. Build the ROM
 
