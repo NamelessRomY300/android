@@ -4,8 +4,9 @@
      <!-- Device Folders, Kernel & Proprietary BLOBS -->
      <project path="vendor/huawei" name="chil360/proprietary_vendor_huawei" remote="github" revision="kitkat"/>
      <project path="kernel/huawei/huawei-kernel-3.4" name="chil360/chil360-kernel" remote="github" revision="kitkat"/>
-     <project path="device/huawei/msm7x27a-common" name="NamelessRomY300/android_device_huawei_msm7x27a-common" remote="local" revision="nameless"/>
-     <project path="device/huawei/u8833" name="NamelessRomY300/android_device_huawei_u8833" remote="local" revision="nameless"/>
+     <project path="device/huawei/msm7x27a-common" name="NamelessRomY300/android_device_huawei_msm7x27a-common" remote="github" revision="nameless"/>
+     <project path="device/huawei/u8833" name="NamelessRomY300/android_device_huawei_u8833" remote="github" revision="nameless"/>
+     <project path="device/huawei/u8825" name="NamelessRomY300/android_device_huawei_u8825" remote="github" revision="nameless"/>
 
      <!-- WIFI -->
      <project path="hardware/atheros/wifi/ath6kl-huawei" name="Dazzozo/android_hardware_atheros_wifi_ath6kl-huawei" remote="github" revision="master" />
