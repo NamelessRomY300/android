@@ -1,10 +1,10 @@
-NamelessROM for the Huawei Y300
-===============================
+NamelessROM for the Huawei Y300/G510/G330
+=========================================
 
-Local Manifest to build NamelessROM for the Huawei Y300
+Local Manifest to build NamelessROM for the Huawei Y300/G510/G330
 
-Build Instructions for NamelessROM Y300 (U8833)
------------------------------------------------------------------------------
+Build Instructions for NamelessROM
+----------------------------------
 
 1. Initialize repo using the NamelessROM manifest
 ```bash
@@ -27,6 +27,8 @@ repo sync -f -j8
 ```bash
 For Y300:
     brunch u8833
+For G510:
+    brunch u8951
 For G330
     brunch u8825
 ```
