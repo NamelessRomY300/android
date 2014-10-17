@@ -27,3 +27,5 @@ Build Instructions for NamelessROM Y300 (U8833)
 
         For Y300:
             brunch u8833
+        For G330
+            brunch u8825
