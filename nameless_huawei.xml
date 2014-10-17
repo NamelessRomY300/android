@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <manifest>
+
+     <!-- Device Folders, Kernel & Proprietary BLOBS -->
+     <project path="vendor/huawei" name="chil360/proprietary_vendor_huawei" remote="github" revision="kitkat"/>
+     <project path="kernel/huawei/huawei-kernel-3.4" name="chil360/chil360-kernel" remote="github" revision="kitkat"/>
+     <project path="device/huawei/msm7x27a-common" name="NamelessRomY300/android_device_huawei_msm7x27a-common" remote="local" revision="nameless"/>
+     <project path="device/huawei/u8833" name="NamelessRomY300/android_device_huawei_u8833" remote="local" revision="nameless"/>
+
+     <!-- WIFI -->
+     <project path="hardware/atheros/wifi/ath6kl-huawei" name="Dazzozo/android_hardware_atheros_wifi_ath6kl-huawei" remote="github" revision="master" />
+     <project path="hardware/atheros/wlan" name="legaCyMod/android_hardware_atheros_wlan" remote="github" revision="cm-11.0" />
+
+     <!-- QCOM Hardware -->
+     <project name="Dazzozo/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" remote="github" revision="jellybean-mr2" />
+     <project path="hardware/qcom/media-legacy" name="Dazzozo/android_hardware_qcom_media-legacy" remote="github" revision="kitkat" />
+     <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" remote="github" revision="cm-11.0" />
+
+     <!-- Webkit -->
+     <project path="external/webkit" name="Dazzozo/android_external_webkit" remote="github" revision="kitkat"/>
+     
+</manifest>
+
+ 
