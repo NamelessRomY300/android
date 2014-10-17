@@ -13,11 +13,11 @@ Build Instructions for NamelessROM Y300 (U8833)
 2. Add my local manifest
 
         mkdir .repo/local_manifests
-        Copy nameless_huawei.xml to .repo/local_manifests
+        curl https://raw.githubusercontent.com/NamelessRomY300/android/master/nameless_huawei.xml > .repo/local_manifests/nameless_huawei.xml
 
 3. Then sync up the repositories
  
-        repo sync
+        repo sync -f -j8
 
 4. Initialize the build environment
 
