@@ -12,8 +12,7 @@ repo init -u https://github.com/NamelessRom/android.git -b android-4.4
 ```
 2. Add my local manifest
 ```bash
-mkdir .repo/local_manifests
-curl https://raw.githubusercontent.com/NamelessRomY300/android/master/nameless_huawei.xml > .repo/local_manifests/nameless_huawei.xml
+curl --create-dirs -L -o .repo/local_manifests/roomservice.xml -O -L https://raw.github.com/NamelessRomY300/android/master/nameless_huawei.xml
 ```
 3. Then sync up the repositories
 ```bash
